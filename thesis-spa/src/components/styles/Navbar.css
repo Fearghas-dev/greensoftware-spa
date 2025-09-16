@@ -1,0 +1,39 @@
+.navbar {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  background-color: #333;
+
+  /* Apply a gradient as a mask */
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  mask-image: linear-gradient(to right, #0000 20%, #ffff 50%);
+  
+  /* Optional: smooth it out */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+
+  margin: 0;
+
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #093;
+  text-decoration: none;
+}
+
+.navbar a.active::before {
+  content: '🌿 ';
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
