@@ -1,0 +1,56 @@
+#root {
+  background-color: #000;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #000;
+  color: #ccc;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.card { 
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #222;
+  margin: 1rem auto;
+  max-width: 80%;
+  text-align: left;
+}
+
+.card p {
+  padding-left: 1em;
+}
+
+.accent {
+  color:#fff;
+  font-weight: 700;
+}
+
+h1, h2, p {
+  /* get rid of unhelpful default browser styles */
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h1 {
+  color: #1b3;
+  text-shadow: .03em .03em #051;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 42pt;
+  letter-spacing: 1ch;
+}
+
+ul {
+    list-style: '🌿';
+}
+
+li {
+  padding-left: .5em;
+}
+
+a {
+  color: #2C4;
+}
